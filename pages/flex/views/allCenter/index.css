@@ -1,0 +1,36 @@
+.f__child-continer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.f__header{
+    height: 10%;
+    padding: 10px;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #928e8e;
+}
+.f__body{
+    padding: 20px;
+}
+.container {
+    display: flex; 
+    width: 40%;
+    background-color: #eeff009f;
+    height: 200px;
+    border-radius: 20px;
+    margin: 40px auto;
+}
+
+.container--single {
+   justify-content: center; /* 水平居中 */ 
+   align-items: center;     /* 垂直居中 */
+}
+
+.container--multiple {
+    line-height: 30px;
+    flex-direction: column;
+    align-items: center;     /* 水平居中 */
+    justify-content: center; /* 垂直居中 */
+}

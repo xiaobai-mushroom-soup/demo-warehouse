@@ -1,0 +1,16 @@
+.f__child-continer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.f__header{
+    height: 10%;
+    padding: 10px;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #928e8e;
+}
+.f__body{
+    padding: 20px;
+}

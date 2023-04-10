@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>页面模板</title>
+  <title>Flex 布局</title>
   <link rel="stylesheet" href="../../css/normalize.css" />
   <link rel="stylesheet" href="../../css/reset.css" />
   <link rel="stylesheet" href="./css/common.css" />
@@ -16,19 +16,23 @@
   <div class="t__box--container .f__bgc--frosted_glass">
     <div class="t__side--left">
       <div  class="t__title">
-        <h2>页面标题</h2>
+        <h2>Flex布局</h2>
       </div>
       <ul class="t__nav--list">
         <li class="t__nav--item">
-          <a href="#" target="child" class="t__button t__button--light">按钮</a>
+          <a href="./views/allCenter/allCenter.html"  target="child" class="t__button t__button--light t__button--active">水平垂直居中</a>
+        </li>
+        <li class="t__nav--item">
+          <a href="./views/contour/contour.html" target="child" class="t__button t__button--light">等高布局</a>
         </li>
       </ul>
     </div>
     <div class="t__main--right">
-      <iframe class="t__iframe--subpage" name="child" src="#" frameborder="0"></iframe>
+      <iframe name="child" class="t__iframe--subpage" src="./views/allCenter/allCenter.html" frameborder="0"></iframe>
     </div>
   </div>
 </body>
 <script src="./js/button.js"></script>
+<script src="./js/index.js"></script>
 
 </html>

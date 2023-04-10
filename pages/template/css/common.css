@@ -10,9 +10,12 @@
   display: flex;
   place-content:center;
 }
-.t__button{
+.t__button {
+  text-align: center;
   width: 80%;
   height: 100%;
+  line-height:43px;
+  vertical-align: baseline;
   border-radius: 20px;
   border: 1px solid transparent;
   letter-spacing:4px;
@@ -22,9 +25,9 @@
   display:-webkit-box; 
   -webkit-box-orient:vertical; 
   -webkit-line-clamp:2;
-  color: #fff;
   font-size: 20px;
 }
+
 
 .t__button--light{
   position:relative;
@@ -37,6 +40,7 @@
   );
   background-size: 400%;
   animation: color-flow 60s linear infinite;
+  color:#fff;
 }
 
 .t__button--light:hover{
@@ -46,7 +50,8 @@
   text-transform: uppercase;
   overflow: hidden;
   font-size: 21px;
-  letter-spacing:9px;
+  letter-spacing:4px;
+  text-shadow: 0px 3px 5px #444444;
   color: #fff;
   border-radius: 20px;
   background: linear-gradient(
@@ -75,7 +80,7 @@
     #ffeb3b,
     #03a9f4
   );
-  background-size: 400%;
+  background-size: 200%;
   z-index: -1;
   filter: blur(10px);
   animation: color-flow 60s linear infinite;
