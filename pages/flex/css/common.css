@@ -1,0 +1,130 @@
+.t__nav--list {
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.t__nav--item {
+  width: 100%;
+  height: 50px;
+  margin: 30px 0 30px 0;
+  display: flex;
+  place-content: center;
+}
+
+.t__button {
+  text-align: center;
+  width: 80%;
+  height: 100%;
+  line-height: 43px;
+  vertical-align: baseline;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  letter-spacing: 4px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+
+.t__button--light {
+  position: relative;
+  background: linear-gradient(to right,
+      #03a9f4,
+      #f441a5,
+      #ffeb3b,
+      #03a9f4);
+  background-size: 400%;
+  animation: color-flow 60s linear infinite;
+  color: #fff;
+}
+
+.t__button--light:hover {
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 21px;
+  letter-spacing: 4px;
+  text-shadow: 0px 3px 5px #444444;
+  color: #fff;
+  border-radius: 20px;
+  background: linear-gradient(to right,
+      #03a9f4,
+      #f441a5,
+      #ffeb3b,
+      #03a9f4);
+  background-size: 400%;
+  animation: color-flow 60s linear infinite;
+}
+
+.t__button--light:hover::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  bottom: -5px;
+  right: -5px;
+  border-radius: 20px;
+  background: linear-gradient(to right,
+      #03a9f4,
+      #f441a5,
+      #ffeb3b,
+      #03a9f4);
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(10px);
+  animation: color-flow 60s linear infinite;
+}
+
+.t__button--active {
+  font-size: 21px;
+  letter-spacing: 4px;
+  text-shadow: 0px 3px 5px #444444;
+  color: #ffed00;
+}
+
+.t__button--active:hover {
+  font-size: 21px;
+  letter-spacing: 4px;
+  text-shadow: 0px 3px 5px #444444;
+  color: #ffed00;
+}
+
+@keyframes color-flow {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  50% {
+    background-position: 100% 0%;
+  }
+
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+.t__nav--list::-webkit-scrollbar {
+  width: 10px;
+}
+
+.t__nav--list::-webkit-scrollbar-track {
+  border-radius: 2px;
+}
+
+.t__nav--list::-webkit-scrollbar-thumb {
+  background: #aaaaaab0;
+  border-radius: 10px;
+}
+
+.t__nav--list::-webkit-scrollbar-thumb:hover {
+  background: #bebebe9a;
+}
+
+.t__nav--list::-webkit-scrollbar-corner {
+  background: #179a16;
+}
