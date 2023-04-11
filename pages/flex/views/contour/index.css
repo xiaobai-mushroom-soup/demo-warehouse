@@ -1,9 +1,10 @@
-.f__child-continer{
+.f__child-continer {
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
-.f__header{
+
+.f__header {
     height: 10%;
     padding: 10px;
     line-height: 50px;
@@ -11,6 +12,53 @@
     font-weight: bold;
     border-bottom: 1px solid #928e8e;
 }
-.f__body{
+
+.f__body {
     padding: 20px;
+}
+
+.cards {
+    background-color: rgb(0, 137, 123);
+    border: 1px solid #000;
+    height: 300px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.card {
+    border: 1px solid #000;
+    background-color: #fff;
+    display: flex;
+
+    flex-direction: column;
+    flex: 1 1 150px;
+}
+
+.photo {
+    display: flex;
+    place-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(144, 144, 224);
+}
+
+.card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.card p {
+    margin: 15px;
+    flex-grow: 1;
+}
+
+.card button{
+    height: 50px;
+    border:none;
+    color: #fff;
+    background-color: rgb(0, 137, 123);
+    margin: 15px;
 }
