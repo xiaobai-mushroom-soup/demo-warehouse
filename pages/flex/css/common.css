@@ -20,7 +20,6 @@
   vertical-align: baseline;
   border-radius: 20px;
   border: 1px solid transparent;
-  letter-spacing: 4px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -47,8 +46,7 @@
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 21px;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   text-shadow: 0px 3px 5px #444444;
   color: #fff;
   border-radius: 20px;
@@ -81,15 +79,15 @@
 }
 
 .t__button--active {
-  font-size: 21px;
+  font-size: 14px;
   letter-spacing: 4px;
   text-shadow: 0px 3px 5px #444444;
   color: #ffed00;
 }
 
 .t__button--active:hover {
-  font-size: 21px;
-  letter-spacing: 4px;
+  font-size: 14px;
+  letter-spacing: 4px!important;
   text-shadow: 0px 3px 5px #444444;
   color: #ffed00;
 }

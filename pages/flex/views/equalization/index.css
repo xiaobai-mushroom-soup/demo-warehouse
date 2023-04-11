@@ -1,0 +1,52 @@
+.f__child-continer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #e7ebec;
+    }
+
+.f__header {
+    height: 10%;
+    padding: 10px;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #928e8e;
+}
+
+.f__body {
+    padding: 20px;
+}
+
+.cards1 {
+    width: 800px;
+    height: 180px;
+    margin: 10px auto;
+    display: flex;
+    padding: 10px;
+    gap:1rem;
+}
+
+.cards1 .card{
+    flex: 1;
+    background-color: #fff;
+    box-shadow: 4px 4px 6px #00000059;
+    border-radius: 5px;
+
+}
+
+.cards2 {
+    width: 800px;
+    height: 250px;
+    margin:50px auto 0 auto;
+    display: flex;
+    padding: 10px;
+    gap: 1rem;
+}
+
+.cards2 .card{
+    background-color: #ffffff6d;
+    flex: 1;
+    box-shadow: 4px 4px 6px #00000059;
+
+}
