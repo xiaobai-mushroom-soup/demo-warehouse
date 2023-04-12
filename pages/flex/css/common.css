@@ -58,7 +58,7 @@
       #f441a5,
       #03a9f4);
   background-size: 400%;
-  animation: color-flow 10000s linear infinite;
+  animation: color-flow 60 linear infinite;
 }
 
 .t__button--light:hover::before {
