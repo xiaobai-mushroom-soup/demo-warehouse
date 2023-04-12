@@ -35,9 +35,10 @@
       #03a9f4,
       #f441a5,
       #ffeb3b,
+      #f441a5,
       #03a9f4);
   background-size: 400%;
-  animation: color-flow 60s linear infinite;
+  animation: color-flow 100s linear infinite;
   color: #fff;
 }
 
@@ -54,9 +55,10 @@
       #03a9f4,
       #f441a5,
       #ffeb3b,
+      #f441a5,
       #03a9f4);
   background-size: 400%;
-  animation: color-flow 60s linear infinite;
+  animation: color-flow 10000s linear infinite;
 }
 
 .t__button--light:hover::before {
@@ -87,7 +89,7 @@
 
 .t__button--active:hover {
   font-size: 14px;
-  letter-spacing: 4px!important;
+  letter-spacing: 4px !important;
   text-shadow: 0px 3px 5px #444444;
   color: #ffed00;
 }

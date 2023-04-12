@@ -50,3 +50,8 @@
     box-shadow: 4px 4px 6px #00000059;
 
 }
+
+.card:hover {
+    transform:scale(1.05) ;
+    box-shadow: 4px 4px 6px #0000008b;
+}
