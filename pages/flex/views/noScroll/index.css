@@ -1,0 +1,61 @@
+.f__child-continer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.f__header {
+    height: 10%;
+    padding: 10px;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #928e8e;
+}
+
+.f__body {
+    padding: 20px;
+}
+
+.father-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 350px;
+    height: 500px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    background-color: #efefef;
+}
+
+.father-container .header--title {
+    width: 100%;
+    height: 80px;
+    background-color: pink;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 8px 8px 0 0;
+}
+.father-container .scroll-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.father-container .body--main {
+    flex: 1;
+    background-color: #81f696;
+    min-height: 0;
+    padding: 10px;
+    overflow: auto;
+    border-radius: 0 0 8px 8px;
+}
+
+.father-container .body--main .item {
+    width: 100%;
+    height: 70px;
+    margin:10px 0 10px 0;
+    border-radius: 8px;
+    background-color: #468efb;
+}
