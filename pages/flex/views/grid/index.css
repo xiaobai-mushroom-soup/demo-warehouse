@@ -1,0 +1,61 @@
+.f__child-continer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.f__header{
+    height: 10%;
+    padding: 10px;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #928e8e;
+}
+.f__body{
+    padding: 20px;
+}
+.body{
+    background-color: #ebe8e8;
+    padding: 10px;
+    margin: 10px auto;
+
+}
+
+.container{
+    margin: 10px 0 10px 0;
+    min-height: 10px;
+    gap:15px;
+    display: flex;
+}
+.container .f__12{
+    background-color: #b4b3b3;
+    flex:1;
+    height:40px;
+    border-radius:3px;
+}
+
+.container .f__6{
+    background-color: #b4b3b3;
+    flex:1;
+    height:40px;
+    border-radius:3px;
+}
+
+.container .f__4{
+    background-color: #b4b3b3;
+    flex:1;
+    height:40px;
+    border-radius:3px;
+}
+.container .f__3{
+    background-color: #b4b3b3;
+    flex:1;
+    height:40px;
+    border-radius:3px;
+}
+.container .f__2{
+    background-color: #b4b3b3;
+    flex:1;
+    height:40px;
+    border-radius:3px;
+}
