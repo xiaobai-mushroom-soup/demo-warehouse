@@ -38,7 +38,7 @@
       #f441a5,
       #03a9f4);
   background-size: 400%;
-  animation: color-flow 100s linear infinite;
+  /* animation: color-flow 100s linear infinite; */
   color: #fff;
 }
 
@@ -58,7 +58,7 @@
       #f441a5,
       #03a9f4);
   background-size: 400%;
-  animation: color-flow 60 linear infinite;
+  /* animation: color-flow 60 linear infinite; */
 }
 
 .t__button--light:hover::before {
@@ -77,7 +77,7 @@
   background-size: 400%;
   z-index: -1;
   filter: blur(10px);
-  animation: color-flow 60s linear infinite;
+  /* animation: color-flow 60s linear infinite; */
 }
 
 .t__button--active {
